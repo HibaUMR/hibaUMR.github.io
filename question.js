@@ -1,167 +1,167 @@
 let questions = [
     {
         numb: 1,
-        question: "In the CSS Box Model, which property creates space directly inside an element, between its content and its border?",
-        answer: "padding",
+        question: "What does HTML stand for?",
+        answer: "Hyper Text Markup Language",
         options: [
-            "margin",
-            "border",
-            "padding",
-            "outline"
+            "Hyper Text Preprocessor",
+            "Hyper Text Markup Language",
+            "Hyper Text Multiple Language",
+            "Hyper Tool Multi Language"
         ]
     },
     {
         numb: 2,
-        question: "In CSS, which property is used to change the background color of an element?",
-        answer: "background-color",
+        question: "What does CSS stand for?",
+        answer: "Cascading Style Sheet",
         options: [
-            "color",
-            "background-color",
-            "bgcolor",
-            "fill-color"
+            "Common Style Sheet",
+            "Colorful Style Sheet",
+            "Computer Style Sheet",
+            "Cascading Style Sheet"
         ]
     },
     {
         numb: 3,
-        question: "How do you declare a variable that cannot be reassigned in modern JavaScript?",
-        answer: "const",
+        question: "What does PHP stand for?",
+        answer: "Hypertext Preprocessor",
         options: [
-            "var",
-            "let",
-            "const",
-            "static"
+            "Hypertext Preprocessor",
+            "Hypertext Programming",
+            "Hypertext Preprogramming",
+            "Hometext Preprocessor"
         ]
     },
     {
         numb: 4,
-        question: "Which CSS selector targets all <p> elements inside a <div>?",
-        answer: "div p",
+        question: "What does SQL stand for?",
+        answer: "Structured Query Language",
         options: [
-            "div p",
-            "div.p",
-            "div + p",
-            "div > p"
+            "Stylish Question Language",
+            "Stylesheet Query Language",
+            "Statement Question Language",
+            "Structured Query Language"
         ]
     },
     {
         numb: 5,
-        question: "Which JavaScript method is used to write messages to the browser's console?",
-        answer: "console.log()",
+        question: "What does XML stand for?",
+        answer: "eXtensible Markup Language",
         options: [
-            "console.print()",
-            "browser.log()",
-            "console.log()",
-            "window.alert()"
+            "eXtensible Markup Language",
+            "eXecutable Multiple Language",
+            "eXTra Multi-Program Language",
+            "eXamine Multiple Language"
         ]
     },
     {
         numb: 6,
-        question: "What is the primary function of the HTML <head> tag?",
-        answer: "To contain metadata and links to external resources.",
+        question: "Which property is used to change the background color in CSS?",
+        answer: "background-color",
         options: [
-            "To display the main title on the page content.",
-            "To contain metadata and links to external resources.",
-            "To define the visible header section of the site.",
-            "To create a navigation menu."
+            "color",
+            "bgcolor",
+            "background-color",
+            "background"
         ]
     },
     {
         numb: 7,
-        question: "In CSS, what does the 'flex' value for the 'display' property do?",
-        answer: "It enables the flexible box model for element alignment.",
+        question: "Which CSS property is used to make text bold?",
+        answer: "font-weight",
         options: [
-            "It makes the element invisible.",
-            "It enables the flexible box model for element alignment.",
-            "It allows elements to stack on top of each other.",
-            "It transforms the element into a data table."
+            "font-weight",
+            "font-style",
+            "text-decoration",
+            "text-transform"
         ]
     },
     {
         numb: 8,
-        question: "Which operator is used to compare both value and type in JavaScript?",
-        answer: "===",
+        question: "Which symbol is used for comments in JavaScript?",
+        answer: "//",
         options: [
-            "==",
-            "===",
-            "=",
-            "!="
+            "//",
+            "/* */",
+            "<!-- -->",
+            "#"
         ]
     },
     {
         numb: 9,
-        question: "Which CSS unit is relative to the font size of the root element (<html>)?",
-        answer: "rem",
+        question: "Which company developed JavaScript?",
+        answer: "Netscape",
         options: [
-            "px",
-            "em",
-            "rem",
-            "vh"
+            "Mozilla",
+            "Microsoft",
+            "Netscape",
+            "Sun Microsystems"
         ]
     },
     {
         numb: 10,
-        question: "In HTML, which attribute links a <label> to an <input> for accessibility?",
-        answer: "for",
+        question: "Which of the following is not a programming language?",
+        answer: "HTML",
         options: [
-            "class",
-            "id",
-            "for",
-            "name"
+            "Python",
+            "Java",
+            "HTML",
+            "C++"
         ]
     },
     {
         numb: 11,
-        question: "What is the output of `typeof []` in JavaScript?",
-        answer: "object",
+        question: "What does API stand for?",
+        answer: "Application Programming Interface",
         options: [
-            "array",
-            "object",
-            "list",
-            "undefined"
+            "Application Programming Interface",
+            "Application Protocol Interface",
+            "Applied Program Internet",
+            "Applied Protocol Interface"
         ]
     },
     {
         numb: 12,
-        question: "Which symbol is used to target a class in CSS?",
-        answer: ".",
+        question: "Which SQL statement is used to extract data from a database?",
+        answer: "SELECT",
         options: [
-            "#",
-            ".",
-            "@",
-            "&"
+            "GET",
+            "SELECT",
+            "EXTRACT",
+            "OPEN"
         ]
     },
     {
         numb: 13,
-        question: "What is a function that calls itself called in programming?",
-        answer: "A recursive function",
+        question: "What does DOM stand for?",
+        answer: "Document Object Model",
         options: [
-            "A loop",
-            "A recursive function",
-            "A mirror function",
-            "A callback function"
+            "Document Object Model",
+            "Data Object Model",
+            "Document Oriented Model",
+            "Data Oriented Model"
         ]
     },
     {
         numb: 14,
-        question: "Which HTML tag is used to create a numbered list?",
-        answer: "<ol>",
+        question: "Which HTML attribute is used to define inline styles?",
+        answer: "style",
         options: [
-            "<ul>",
-            "<li>",
-            "<ol>",
-            "<list>"
+            "style",
+            "class",
+            "font",
+            "styles"
         ]
     },
     {
         numb: 15,
-        question: "In JavaScript, what does the `.push()` method do to an array?",
-        answer: "It adds an element to the end of the array.",
+        question: "Which CSS property controls the text size?",
+        answer: "font-size",
         options: [
-            "It removes the last element.",
-            "It adds an element to the beginning of the array.",
-            "It adds an element to the end of the array.",
-            "It reverses the order of elements."
+            "text-style",
+            "font-style",
+            "font-size",
+            "text-size"
         ]
     }
 ];
